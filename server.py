@@ -3,7 +3,7 @@ import os
 
 # SERVER_HOME_DIRECTORY = os.path.join(os.path.expanduser('~'), raw_input('Please enter your server home directory: '))
 
-SERVER_HOME_DIRECTORY = os.path.join(os.path.expanduser('~'), 'desktop/server_hello_world/files')
+SERVER_HOME_DIRECTORY = os.path.join(os.path.expanduser('~'), os.path.join(os.getcwd(), 'files'))
 
 server_s = socket(AF_INET, SOCK_STREAM)
 
