@@ -1,0 +1,70 @@
+/* Main  */
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    overflow-wrap: break-word;
+    background-color: #f1f1f1;
+}
+.layout-row {
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    display: flex;
+}
+h2 {
+    align-items: center;
+    align-content: center;
+}
+div {
+    width: 100%;
+}
+h1, h2, h3 {
+    font-family: 'Source Sans Pro';
+}
+code-inline {
+    background: #e4e4e4;
+    font-family: 'Source Code Pro', monospace;
+    padding: 0.3em;
+    border: 1px solid #cccbcb;
+    display: inline;
+}
+.important-bg {
+    font-family: 'Source Sans Pro';
+    background: #0082c5;
+    width: 100%;
+    color: #efefef;
+}
+.content-padding {
+    padding: 0.5em 1em;
+}
+.big-line-height {
+    line-height: 3em;
+}
+.bottom {
+    bottom: 0;
+    position: fixed;
+}
+/* Error Page */
+.error-body {
+    background-color: #0082c5;
+}
+body>.error {
+    margin: 4em auto 0;
+    background: white;
+    width: fit-content;
+    padding: 1em;
+}
+.error>.content {
+    width: 90%;
+}
+.important-icon {
+    font-size: 3em;
+    color: #c1c1c1;
+    transition: color 0.5s linear;
+    text-align: right;
+    width: 10%
+}
+.error:hover .important-icon {
+    color: grey !important;
+}
